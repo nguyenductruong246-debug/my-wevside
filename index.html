@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tác hại của thuốc lá điện tử</title>
+<style>
+:root{
+  --primary:#003366;
+  --accent:#c02b2b;
+  --bg:#f2f6fb;
+  --text:#222;
+  --card:#fff;
+  --radius:10px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+header{background:linear-gradient(90deg,var(--primary),#005e9e);color:white;display:flex;align-items:center;justify-content:space-between;padding:10px 20px;flex-wrap:wrap;}
+.brand{display:flex;align-items:center;gap:10px;}
+.brand img{width:60px;background:white;border-radius:8px;padding:5px;}
+.brand h1{font-size:20px;margin:0;}
+.subtitle{font-size:13px;opacity:0.9;}
+.flag{width:60px;height:auto;}
+nav{background:var(--accent);display:flex;justify-content:center;flex-wrap:wrap;}
+nav button{background:none;border:none;color:white;font-weight:600;padding:10px 16px;cursor:pointer;font-size:15px;}
+nav button:hover,nav button.active{background:rgba(255,255,255,0.15);}
+section{display:none;padding:20px;max-width:1000px;margin:20px auto;background:var(--card);border-radius:var(--radius);box-shadow:0 4px 14px rgba(0,0,0,0.06);}
+section.active{display:block;animation:fade 0.4s ease;}
+@keyframes fade{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+h2{color:var(--primary);margin-bottom:10px;}
+img{max-width:100%;border-radius:10px;margin:10px 0;}
+ul{margin-left:20px;}
+footer{text-align:center;background:linear-gradient(90deg,var(--primary),#005e9e);color:white;padding:15px;margin-top:20px;}
+.btn{display:inline-block;margin-top:10px;background:var(--accent);color:white;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700;}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <img src="https://cdn.dlib.vn/hcm/thpt/thpt-lethanhton/web/logo/2023/20231023/200x200/17164328608666015724.webp">
+    <div>
+      <h1>Tác hại của thuốc lá điện tử</h1>
+      <p class="subtitle">Bảo vệ sức khỏe thanh thiếu niên & cộng đồng</p>
+    </div>
+  </div>
+  <img class="flag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRseaE9HYJm4eUpkBHDvtOWrSz-Q5uCszNeqQ&s" alt="Logo trường Lê Thánh Tôn">
+</header>
+
+<nav>
+  <button class="active" data-target="home">Trang chủ</button>
+  <button data-target="gioithieu">Giới thiệu</button>
+  <button data-target="tachai">Tác hại</button>
+  <button data-target="anhhuong">Ảnh hưởng</button>
+  <button data-target="bienphap">Biện pháp</button>
+</nav>
+
+<section id="home" class="active">
+  <h2>Thuốc lá điện tử: Không vô hại như bạn nghĩ</h2>
+  <p>Thuốc lá điện tử (vape) chứa nhiều hóa chất gây hại, có thể làm tổn thương phổi, tim mạch và hệ thần kinh. Nhiều người, đặc biệt là thanh thiếu niên, bị nghiện nicotin mà không nhận ra.</p>
+  <img src="https://www.vinmec.com/static/uploads/medium_20191004_080919_874953_thuoc_la_dien_tu_vi_max_1800x1800_jpg_171935646a.jpg" alt="Vape">
+  <a class="btn" href="#" onclick="showSection('gioithieu')">Tìm hiểu thêm →</a>
+</section>
+
+<section id="gioithieu">
+  <h2>Nguồn gốc và thành phần</h2>
+  <p>Thuốc lá điện tử được phát minh năm 2003 tại Trung Quốc. Thiết bị gồm pin, buồng đốt và lọ tinh dầu chứa nicotin, glycerin, propylene glycol và hương liệu.</p>
+  <img src="https://cdn.thuvienphapluat.vn/uploads/tintuc/2023/12/13/thuoc-la-dien-tu.png" alt="Cấu tạo thuốc lá điện tử">
+  <ul>
+    <li>Nicotin – gây nghiện mạnh, ảnh hưởng hệ thần kinh.</li>
+    <li>Propylene glycol & Glycerin – tạo khói và hạt khí nhỏ.</li>
+    <li>Hương liệu – có thể chứa chất độc hại khi đun nóng.</li>
+  </ul>
+</section>
+
+<section id="tachai">
+  <h2>Tác hại đối với cá nhân</h2>
+  <p>Nicotin trong thuốc lá điện tử làm tăng huyết áp, gây căng thẳng, mất ngủ, ảnh hưởng não bộ, đặc biệt ở người trẻ tuổi.</p>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYT5HdVMpwJ_RuOxBUKO68F04FGBChGpivnQ&s" alt="Phổi bị tổn thương">
+  <h3>Ảnh hưởng hô hấp</h3>
+  <p>Hít phải khí aerosol gây kích ứng đường thở, ho, khó thở và viêm phổi.</p>
+  <h3>Ảnh hưởng tim mạch</h3>
+  <p>Các hợp chất hóa học trong vape làm tăng nguy cơ đau tim, rối loạn nhịp tim.</p>
+  <h3>Ảnh hưởng tâm lý</h3>
+  <p>Người sử dụng dễ rơi vào trạng thái lo âu, trầm cảm và khó kiểm soát cảm xúc.</p>
+</section>
+
+<section id="anhhuong">
+  <h2>Ảnh hưởng đến đời sống cộng đồng</h2>
+  <p>Việc sử dụng thuốc lá điện tử tại nơi công cộng ảnh hưởng người xung quanh, đặc biệt trẻ nhỏ. Vape còn tạo xu hướng nguy hiểm trong giới trẻ.</p>
+  <img src="https://cdn2.tuoitre.vn/thumb_w/480/471584752817336320/2023/11/25/thuoc-la-dien-tu3-1700877437669845377875.jpg" alt="Ảnh hưởng cộng đồng">
+  <h3>Ảnh hưởng xã hội</h3>
+  <p>Tăng tỷ lệ nghiện nicotin, giảm năng suất lao động và tăng chi phí y tế cho cộng đồng.</p>
+</section>
+
+<section id="bienphap">
+  <h2>Biện pháp khắc phục</h2>
+  <ul>
+    <li>Tăng cường tuyên truyền trong trường học.</li>
+    <li>Hạn chế quảng cáo và bán hàng cho trẻ vị thành niên.</li>
+    <li>Thiết lập khu vực cấm sử dụng thuốc lá điện tử.</li>
+    <li>Hỗ trợ tư vấn và chương trình cai nghiện.</li>
+  </ul>
+  <img src="https://cdn.nhandan.vn/images/1ef398c4e2fb4bf07980a2ded785b3ef106a1b747034a12350e9d57df3dc0a12bb93803d882e520d84b658863384c81edb6c419cb08ea573ed59efb4f8dc9d53/stopvaping-1727.jpg" alt="Biện pháp cai nghiện">
+  <p>Hãy nói không với thuốc lá điện tử để bảo vệ sức khỏe bản thân và cộng đồng.</p>
+</section>
+
+<footer>
+  <p>© 2025 - Trang thông tin tuyên truyền về tác hại của thuốc lá điện tử</p>
+  <p>Hình ảnh: Pixabay / Unsplash - Dùng cho mục đích giáo dục</p>
+</footer>
+
+<script>
+const buttons=document.querySelectorAll('nav button');
+function showSection(id){
+  document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  buttons.forEach(b=>b.classList.toggle('active',b.dataset.target===id));
+}
+buttons.forEach(btn=>{
+  btn.addEventListener('click',()=>showSection(btn.dataset.target));
+});
+</script>
+</body>
+</html>
